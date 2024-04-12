@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+
+    <h3>Formulario de registro</h3>
+
+    <form action="" method="get">
+
+        <table>
+            <!--  tr -> table row -->
+            <tr>
+                <!--  th -> table header -->
+                <th colspan="2">Información personal</th>
+            </tr>
+            <tr>
+                <!--  td -> table data cell -->
+                <td><label for="nombre">Nombre:</label></td>
+                <td><input type="text" id="nombre" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="apellidos">Apellidos:</label></td>
+                <td><input type="text" id="apellidos" name="apellidos" required></td>
+            </tr>
+            <tr>
+                <th colspan="2">Dirección</th>
+            </tr>
+            <tr>
+                <td><label for="tipo_via">Tipo de vía:</label></td>
+                <td><input type="text" id="tipo_via" name="tipo_via" required></td>
+            </tr>
+            <tr>
+                <td><label for="nombre_via">Nombre de la vía:</label></td>
+                <td><input type="text" id="nombre_via" name="nombre_via" required></td>
+            </tr>
+            <tr>
+                <td><label for="codigo_postal">Código postal:</label></td>
+                <td><input type="number" id="codigo_postal" name="codigo_postal" required></td>
+            </tr>
+            <tr>
+                <td><label for="ciudad">Ciudad:</label></td>
+                <td> <input type="text" id="ciudad" name="ciudad" required></td>
+            </tr>
+            <tr>
+                <td><label for="provincia">Provincia:</label></td>
+                <td><input type="text" id="provincia" name="provincia" required></td>
+            </tr>
+            <tr>
+                <td><label for="pais">País:</label></td>
+                <td><input type="text" id="pais" name="pais" required></td>
+            </tr>
+            <tr>
+                <th colspan="2">Nacimiento</th>
+            </tr>
+            <tr>
+                <td><label for="fecha_nacimiento">Fecha de nacimiento:</label></td>
+                <td><input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required></td>
+            </tr>
+            <tr>
+                <th colspan="2">Universidad</th>
+            </tr>
+            <tr>
+                <td><label for="nota_media">Nota media en la universidad:</label></td>
+                <td><input type="number" id="nota_media" name="nota_media" min="0" max="10" step="0.1" required></td>
+            </tr>
+            <tr>
+                <th colspan="2">Teléfono</th>
+            </tr>
+            <tr>
+                <td><label for="telefono">Número de teléfono:</label></td>
+                <td><input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required></td>
+            </tr>
+            <tr>
+                <th colspan="2">Registro</th>
+            </tr>
+            <tr>
+                <td><label for="email">Correo electrónico:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Contraseña:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">Repetir contraseña:</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="pais_selec">País:</label></td>
+                <td><select id="pais_selec" name="pais_selec">
+                        <option value="España">España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Andorra">Andorra</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="tipo_cuenta">Tipo de cuenta:</label></td>
+                <td><select id="tipo_cuenta" name="tipo_cuenta">
+                        <option value="Gratuita" title="Cuenta gratuita con acceso limitado.">Gratuita</option>
+                        <option value="Básica" title="Cuenta básica con acceso estándar.">Básica</option>
+                        <option value="Premium" title="Cuenta premium con acceso completo.">Premium</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="sobre_mi">Sobre mí:</label></td>
+                <td><textarea id="sobre_mi" name="sobre_mi" rows="4" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="foto_perfil">Foto de perfil:</label></td>
+                <td><input type="file" id="foto_perfil" name="foto_perfil"></td>
+            </tr>
+            <tr>
+                <td><label for="cv">Subir CV:</label></td>
+                <td><input type="file" id="cv" name="cv"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Confirmar"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
