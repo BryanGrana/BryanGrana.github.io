@@ -1,0 +1,124 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.color {
+    background-color: #eee;
+    text-align: center;
+}
+
+.tipo {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.tipo>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body {
+    background-color: black;
+}
+
+.rectangular {
+    background-color: aquamarine;
+    display: flex;
+
+}
+
+.rectangularD {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.rectangularD.uno {
+    background-color: red;
+}
+
+.rectangularD.dos {
+    background-color: blue;
+}
+
+.rectangularD.tres {
+    background-color: green;
+}
+
+.rectangularD.cuatro {
+    background-color: rgb(255, 135, 255);
+}
+
+.rectangularD.cinco {
+    background-color: purple;
+}
+
+.redondeado {
+    background-color: chocolate;
+    display: flex;
+}
+
+.redondeadoD {
+    cursor: grab;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.redondeadoD.uno {
+    background-color: red;
+}
+
+.redondeadoD.dos {
+    background-color: blue;
+}
+
+.redondeadoD.tres {
+    background-color: green;
+}
+
+.redondeadoD.cuatro {
+    background-color: rgb(255, 135, 255);
+}
+
+.redondeadoD.cinco {
+    background-color: purple;
+}
+
+.redondo {
+    background-color: bisque;
+    display: flex;
+}
+
+.redondoD {
+    cursor: grabbing;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.redondoD.uno {
+    background-color: red;
+}
+
+.redondoD.dos {
+    background-color: blue;
+}
+
+.redondoD.tres {
+    background-color: green;
+}
+
+.redondoD.cuatro {
+    background-color: rgb(355, 135, 355);
+}
+
+.redondoD.cinco {
+    background-color: purple;
+}

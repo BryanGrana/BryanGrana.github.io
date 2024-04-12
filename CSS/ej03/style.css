@@ -1,0 +1,131 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    background-color: rgb(248, 200, 200);
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.uno {
+    border-style: dashed;
+    border-color: purple;
+}
+
+.dos {
+    border-style: dotted;
+    border-color: red;
+}
+
+.tres {
+    border-style: double;
+    border-color: blue;
+}
+
+.cuatro {
+    border-style: inset;
+    border-color: green;
+}
+
+.cinco {
+    border-style: outset;
+    border-color: rgb(255, 135, 255);
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+.color {
+    text-align: center;
+}
+
+.tipo {
+    text-align: center;
+    border-width: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-color: black;
+}
+
+.rectangularD {
+    cursor: pointer;
+}
+
+.rectangularD.uno {
+    background-color: red;
+}
+
+.rectangularD.dos {
+    background-color: blue;
+}
+
+.rectangularD.tres {
+    background-color: green;
+}
+
+.rectangularD.cuatro {
+    background-color: rgb(255, 135, 255);
+}
+
+.rectangularD.cinco {
+    background-color: purple;
+}
+
+.redondeadoD {
+    cursor: grab;
+    border-radius: 10px;
+}
+
+.redondeadoD.uno {
+    background-color: red;
+}
+
+.redondeadoD.dos {
+    background-color: blue;
+}
+
+.redondeadoD.tres {
+    background-color: green;
+}
+
+.redondeadoD.cuatro {
+    background-color: rgb(255, 135, 255);
+}
+
+.redondeadoD.cinco {
+    background-color: purple;
+}
+
+.redondoD {
+    cursor: grabbing;
+    border-radius: 50%;
+}
+
+.redondoD.uno {
+    background-color: red;
+}
+
+.redondoD.dos {
+    background-color: blue;
+}
+
+.redondoD.tres {
+    background-color: green;
+}
+
+.redondoD.cuatro {
+    background-color: rgb(355, 135, 355);
+}
+
+.redondoD.cinco {
+    background-color: purple;
+}

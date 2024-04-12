@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+}
+
+.rectangular {
+    background-color: aquamarine;
+    display: flex;
+
+}
+
+.rectangularD {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.rectangularD.uno {
+    background-color: red;
+}
+
+.rectangularD.dos {
+    background-color: blue;
+}
+
+.rectangularD.tres {
+    background-color: green;
+}
+
+.rectangularD.cuatro {
+    background-color: rgb(255, 135, 255);
+}
+
+.rectangularD.cinco {
+    background-color: purple;
+}
+
+.redondeado {
+    background-color: chocolate;
+    padding-top: 10px;
+    padding-bottom: 10xp;
+    display: flex;
+}
+
+.redondeadoD {
+    cursor: grab;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.redondeadoD.uno {
+    background-color: red;
+}
+
+.redondeadoD.dos {
+    background-color: blue;
+}
+
+.redondeadoD.tres {
+    background-color: green;
+}
+
+.redondeadoD.cuatro {
+    background-color: rgb(255, 135, 255);
+}
+
+.redondeadoD.cinco {
+    background-color: purple;
+}
+
+.redondo {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10xp;
+    display: flex;
+}
+
+.redondoD {
+    cursor: grabbing;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.redondoD.uno {
+    background-color: red;
+}
+
+.redondoD.dos {
+    background-color: blue;
+}
+
+.redondoD.tres {
+    background-color: green;
+}
+
+.redondoD.cuatro {
+    background-color: rgb(355, 135, 355);
+}
+
+.redondoD.cinco {
+    background-color: purple;
+}
